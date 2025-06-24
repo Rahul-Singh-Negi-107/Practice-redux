@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+
+.nav-left
+{
+    display: flex;
+    gap:30px;
+}
+
+.nav-right ul
+{
+    display: flex;
+    gap:30px;
+}
+
+.nav-right li
+{
+    list-style: none;
+}
