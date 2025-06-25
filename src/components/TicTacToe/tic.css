@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent
+{
+    height: 600px;
+    width: 600px;
+    border:2px solid red;
+    margin:60px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.parent > div
+{
+    border:2px solid green
+}
