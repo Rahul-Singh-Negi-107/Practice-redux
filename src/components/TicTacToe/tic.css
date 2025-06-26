@@ -1,23 +1,28 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.parent
-{
-    height: 600px;
-    width: 600px;
-    border:2px solid red;
-    margin:60px auto;
+.parent {
+    height: 400px;
+    width: 400px;
+    margin: 60px auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-.parent > div
+.box{
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.winnerText
 {
-    border:2px solid green
+    justify-content: center;
 }
